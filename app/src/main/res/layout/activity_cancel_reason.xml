@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/change_my_mind"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:text="Передумал"
+        android:textSize="35dp"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/wait_too_long"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:layout_below="@+id/change_my_mind"
+        android:text="Слишком долго ждать"
+        android:textSize="35dp"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/plans_changed"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:layout_below="@+id/wait_too_long"
+        android:text="Поменялись планы"
+        android:textSize="35dp"
+        android:clickable="true"/>
+
+
+</RelativeLayout>
